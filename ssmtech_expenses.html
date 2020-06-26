@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Daily Expenses</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="ssmtech_style.css">
+  </head>
+<body>
+
+<nav>
+  
+  <b><i>DAILY EXPENSES</i></b>
+
+  
+  <ul class="navul">
+    <li >
+      <a  href="ssmtech_index.html">Home</a>
+    </li>
+    
+
+    <!-- Dropdown -->
+    <li class="dropdown">
+      <a  href="#">Expenses</a>
+      <div class="dropdown-content">
+        <a class="dropdown-item" href="#">My Expenses</a>
+       
+      </div>
+    </li><li><a href="#tips">Tips</a></li>
+    <li >
+      <a  href="#about">About</a>
+    </li>
+    <li >
+      <a  href="#contact-info">Contact</a>
+    </li>
+  </ul>
+</nav><center><section  class="s2" align="center">
+<h2>Enter your expense here and analyse yourself.</h2>
+Expense Value:  <input type="number" name="Expense value" placeholder="Enter today's new expnense vlaue in Rs." required="true" >
+  </br><p>Category:<input type="text" name="Category" placeholder="Enter category" list="categoryList" ></p>
+  <datalist id="categoryList">
+    <option value="Personal"></option>
+    <option value="Work"></option>
+	<option value="transportation"></option>
+	<option value="child_support"></option>
+	<option value="food"></option>
+	<option value="other"></option>
+  </datalist>
+  <button id="addBtn">Add</button>
+  </section>
+  <section class="s2">
+ <center> <h3>your recorde of expenses are here ,give a look here:)</h3></center>
+  <table id="ExpenseTable" align="center">
+    <tr>
+      
+      <td>Expense</td>
+      <td>Category</td>
+      <td>Delete</td>
+    </tr>
+  </table>
+  <span id="val" ></span>
+  </section></center>
+  <script src="ssmtech.js"></script>
+
+<section id="tips"class="s1">
+    <h3><i> LET'S HAVE SOME MONEY SAVING TIPS:</i></h3>
+    <ul><li>Make a budget.</li>
+      <li>Track your expenses.</li>
+      <li>Pay off your credit card.</li>
+      <li>Open a saving account.</li>
+      <liFocus on reccuring expenses.></li>
+       <li>Control your impulses</li>
+       <li>Smooth your bills.</li>
+    
+	<li>Plan your meals.</li>
+       <li>Become a promiscuous consumer.</li>
+       <li>Avoid a poverty mentality.</li>
+      
+      
+       
+</ul>
+      </section>
+  <footer > <div id="about">
+    <h3>About Us</h3><i> lets meet DailyExpenses,your personal money manager<br>
+    daily expenses let you help to record your daily expenses,you can add or delete your expenses here.</br></br>
+    
+    by keeping record of your expenses you can analyse your expenses and income..you will know your savings.
+    which will be very helpful in every aspect ...you can keep your family happy.
+</div>
+    <div id="contact-info"><h3>Contact Info</h3>
+    <ul ><li><i class="fas fa-map-marker">
+      Bhopal,India</i>
+    </li>
+      <li>+919131232768</li>
+      <li><a href="mailto:rishupatel1999@gmail.com">Email</li>
+      <li><a href="https://rupalipatel08.blogspot.com/">Blogs</li>
+      </ul>
+      </div></footer>
+	 
+
+
+</body >
+</html>
